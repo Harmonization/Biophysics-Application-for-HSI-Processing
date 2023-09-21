@@ -16,4 +16,4 @@
 
 ![1](demo/1.gif)
 
-![1](demo/2.gif)
+![2](demo/2.gif)
