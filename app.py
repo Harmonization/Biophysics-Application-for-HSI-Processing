@@ -224,7 +224,7 @@ class AppWindow(QW.QMainWindow):
 
     def open_hsi(self):
         self.path, _ = QW.QFileDialog.getOpenFileName(self, "Open File", '', '*.hdr')
-        # self.path = 'data_example/tobacco.hdr' # for test
+        # self.path = 'test_data/tobacco.hdr' # for test
         if self.path:
             self.hsi = np.rot90(load_hsi(self.path)[0], k = 3)
             self.channel = self.hsi[:, :, RGB_BANDS]
